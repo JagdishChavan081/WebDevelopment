@@ -1,5 +1,13 @@
 # Web Developmnet
 
+<img src="" alt="Home page" width="500" height="600">
+
+<img src="" alt="About Page" width="500" height="600">
+
+<img src="" alt="Mobile View Home Page" width="500" height="600">
+
+<img src="" alt="Mobile View About Page" width="500" height="600">
+
 <p>Get started in Web Development quickly by creating a beautiful, responsive website with HTML, CSS & JavaScript</p>
 
 <p>
