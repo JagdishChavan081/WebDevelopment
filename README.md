@@ -5,8 +5,6 @@
 <p>
 In this repository, I’m gonna show you to get started with HTML, CSS & JavaScript by creating a simple, responsive product page website.
 
-Don’t worry if you have no experience with web development, because in this course you’re gonna start at the very beginning.
-
 text editor:-Visual Studio Code.
 
 Then you'll learn the basics of HTML and create your first HTML page - adding headings, paragraphs, lists, links and images.
