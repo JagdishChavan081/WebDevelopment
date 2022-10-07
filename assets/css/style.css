@@ -57,6 +57,7 @@ hr {
 }
 .header h1 img{
     width: 30px;
+    display: block;
 }
 .header a{
     color:#ccc;
@@ -94,15 +95,15 @@ hr {
 .product-text, .product-image{
     flex:50% 0 0;
 }
-.product-text h1{
+.product-text h1, .content h1 {
     font-size: 48px;
     margin-bottom:25px;
 }
-.product-text h2{
+.product-text h2, content h2 {
     font-size:21px;
     line-height: 1.4;
 }
-.product-text p{
+.product-text p, content p {
     font-size:21px;
 }
 .product-nav{
@@ -157,13 +158,13 @@ hr {
     .product:first-child{
         padding-top:0;
     }
-    .product h1 {
+    .product h1, content h1 {
         font-size: 34px;
     }
-    .product h2 {
+    .product h2, content h2 {
         font-size: 16px;
     }
-    .product p {
+    .product p, .content p {
         font-size: 16px;
     }
 }
