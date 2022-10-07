@@ -1,139 +1,13 @@
-<!-- Boiler plate code -->
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Orange</title>
         <!-- declare font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-
-        <!-- add css style tag-->
-        <style>
-            /* creating a base style for whole page */
-            body{
-                /* text color to greay */
-                color:#333333;
-                margin: 0;
-                font-family: 'Roboto', sans-serif;
-            }
-            hr {
-                display: none;
-            }
-            /* resuable */
-            .constrain{
-                max-width: 960px;
-                margin: 0 auto;
-                padding: 10px 20px;
-            }
-            .button{
-                text-decoration:none;
-                padding: 8px 16px;
-                border-radius: 20px;  
-                transition: background-color 0.3S;
-            }
-            .button-orange{
-                background-color:#ef6900;
-                color: white;  
-            }
-            .button-white{
-                background-color:white;
-                color:#ef6900;
-            }
-            .button-orange:hover{
-                background-color: #e48b48;
-            }
-            .button-white:hover{
-                background-color:#eee;
-
-
-            }
-            /* adding styles for header */
-            .header{
-            /* adding background color to header */
-                background-color: #333;
-            }
-            .header .constrain{
-                display: flex;
-                justify-content: space-between;
-                align-items:center;
-            }
-            .header h1{
-                margin: 0;
-                padding: 0;
-            }
-            .header h1 span{
-                display: none;
-
-            }
-            .header h1 img{
-                width: 30px;
-            }
-            .header a{
-                color:#ccc;
-                text-decoration: none;
-                font: size 14px;
-                transition: color 0.3S;
-            }
-            .header a:hover{
-                color:white;
-            }
-            .header nav ul{
-                display: flex;
-                list-style: none;
-                margin: 0;
-                padding:0;
-            }
-            .header nav ul a{
-                margin-left: 50px;
-            }
-            .product {
-                display:flex;
-                align-items: center;
-                border-bottom:1px solid #ccc;
-                padding:100px 0;
-            }
-            .product:first-child{
-                padding-top: 20px;
-            }
-            .product:last-child{
-                border-bottom:none;
-            }
-                .product-reverse{
-                flex-direction:row-reverse ;
-            }
-            .product-text, .product-image{
-                flex:50% 0 0;
-            }
-            .product-text h1{
-                font-size: 48px;
-                margin-bottom:25px;
-            }
-            .product-text h2{
-                font-size:21px;
-                line-height: 1.4;
-            }
-            .product-text p{
-                font-size:21px;
-            }
-            .product-nav{
-                margin-top: 30px;
-            }
-            .product-nav ul{
-                list-style:none;
-                margin: 0;
-                display:flex;
-            }
-            .product-image img{
-                width: 100%;
-            }
-            .product-nav ul a{
-                margin-right:20px;
-            }
-        </style>
+        <link rel="stylesheet" href="/assets/css/style.css">
     </head>
     <body>
         <header class="header">
@@ -175,9 +49,11 @@
                         </nav> 
                 </div>
                     <!-- add image -->
-                    <div class="product-image"></div>
-                    <img src="/assets/img/imac.png" alt="OMac Image" width="400px">
+                    <div class="product-image">
+                        <img src="/assets/img/imac.png" alt="OMac Image" width="400">
+                    </div>
             </article>
+
             <article class="product product-reverse">
                 <div class="product-text">
 
@@ -197,9 +73,10 @@
                         </nav> 
                 </div>
                     <!-- add image -->
-                    <div class="product-image"></div>
-                    <img src="/assets/img/macbook.png" alt="Obook Image" width="400px">
-            </article>
+                    <div class="product-image">
+                        <img src="/assets/img/macbook.png" alt="Obook Image" width="400">
+                    </div>
+                </article>
             <article class="product">
                 <div class="product-text">
 
@@ -219,13 +96,34 @@
                         </nav> 
                 </div>
                     <!-- add image -->
-                    <div class="product-image"></div>
-                    <img src="/assets/img/imac.png" alt="OMac Image" width="400px">
-            </article>
+                    <div class="product-image">
+                        <img src="/assets/img/imac.png" alt="OMac Image" width="400px">
+                    </div> 
+                </article>
+            </section>
             <!-- add Hr to add footer -->
             <hr>
             <!-- adding footer -->
-            <footer>Jagdish Chavan&copy; 2021</footer>
-        </section>
+            <footer class="footer">
+                <div class="constrain">
+                    Jagdish Chavan&copy; 2022
+                </div>
+            </footer>
+            <!-- cookies banner -->
+            <section class="cookies-banner">
+                <div class="constrain">
+                    <div class="cookies-banner-text">
+                        <h1>This website uses cookies</h1>
+                        <p>This is a really annoying and pointless cookies 
+                            banner</p>
+                    </div>
+
+                    <div class="cookies-banner-button">
+                        <a href="#" class="button button-orange">Close</a>
+                     </div>
+                </div>
+            </section>
+
+        <script src="/assets/js/global.js"></script>
     </body>
-    </html>
+</html>
