@@ -1,12 +1,14 @@
 # Web Developmnet
 
-<img src="" alt="Home page" width="500" height="600">
+<img src="https://github.com/JagdishChavan081/WebDevelopment/blob/master/assets/img/homepage1.png" alt="Home page" width="1000" height="500">
+<center><p>Home Page</p></center>
 
-<img src="" alt="About Page" width="500" height="600">
+<img src="https://github.com/JagdishChavan081/WebDevelopment/blob/master/assets/img/aboutpage.png" alt="About Page" width="1000" height="500">
+<center><p>About Page</p></center>
 
-<img src="" alt="Mobile View Home Page" width="500" height="600">
+<img src="https://github.com/JagdishChavan081/WebDevelopment/blob/master/assets/img/mobile_view.png" alt="Mobile View Home Page" width="500" height="600">
 
-<img src="" alt="Mobile View About Page" width="500" height="600">
+<img src="https://github.com/JagdishChavan081/WebDevelopment/blob/master/assets/img/about_page_mobile_view.png" alt="Mobile View About Page" width="500" height="600">
 
 <p>Get started in Web Development quickly by creating a beautiful, responsive website with HTML, CSS & JavaScript</p>
 
